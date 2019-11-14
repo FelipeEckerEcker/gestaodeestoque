@@ -1,0 +1,2 @@
+class MovimentodeEstoque < ApplicationRecord
+end

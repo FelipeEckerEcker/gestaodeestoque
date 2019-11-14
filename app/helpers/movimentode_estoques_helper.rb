@@ -1,0 +1,2 @@
+module MovimentodeEstoquesHelper
+end
