@@ -1,5 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe Pessoa, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  context 'validações gerais da pessoa' do
+    it { should belong_to(:cidade) }
+    it { should belong_to(:estado) }
+    it { should belong_to(:endereco) }  
+  end
 end
