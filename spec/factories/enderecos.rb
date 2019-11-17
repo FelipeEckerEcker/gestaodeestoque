@@ -3,5 +3,5 @@ FactoryBot.define do
     nome { "MyString" }
     cpf { "MyString" }
     cep { "MyString" }
-  end
+    end
 end

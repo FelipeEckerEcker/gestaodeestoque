@@ -1,5 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe Unidade, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  context 'validações gerais' do
+    it { should validate_presence_of(:descricao) }
+    it { should validate_presence_of(:sigla) }
+  end
 end

@@ -1,9 +1,9 @@
 FactoryBot.define do
   factory :pessoa do
-    nome { "MyString" }
-    documento { "MyString" }
-    endereco { "MyString" }
-    cidade { "MyString" }
-    estado { "MyString" }
+    nome { "Felipe Ecker" }
+    documento { "07649264971" }
+    association :endereco, factory: :endereco
+    association :cidade, factory: :cidade
+    association :estado, factory: :estado
   end
 end
