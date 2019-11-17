@@ -17,6 +17,12 @@ RSpec.describe SaldoEstoque, type: :model do
             expect(produto).to be_persisted
         end
     end
+
+    context 'um produto ja produzido' do
+        let!(:produto) { FactoryBot.create(:produto, produto: produto, produto:prdouto, data: data) }
+        it 'Deve validar' do
+                expect{ 
+                  SaldoEstoque.new(produto, produto, data).produto }.to raise_error(an_instance_of(StandardError).and having_attributes(message: 'Produto ja produzido neste produto para esta data'))
     end
 
 
