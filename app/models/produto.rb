@@ -1,6 +1,6 @@
 class Produto < ApplicationRecord
-    belongs_to :unidade, class_name: 'Pessoa'
-    belongs_to :grupode_produto, class_name: 'Pessoa'
+    belongs_to :unidade
+    belongs_to :grupode_produto
 
-    validates :nome, :unidade, :grupode_produto, presence: true
+    validates :nome, presence: true
 end
