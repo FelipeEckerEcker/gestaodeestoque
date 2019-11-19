@@ -1,5 +1,5 @@
 FactoryBot.define do
-    factory :grupode_produtos do
-      nome { 'Felipe' }
+    factory :grupode_produto do
+      nome { 'Grupo do teclado' }
     end
   end

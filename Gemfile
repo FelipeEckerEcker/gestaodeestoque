@@ -62,6 +62,7 @@ group :test do
   gem 'factory_bot_rails'
   gem 'rubocop'
   gem 'simplecov'
+  gem 'factory_bot_rails'
 end
 
 
