@@ -1,7 +1,6 @@
-class SaldoEstoque
+class SaldoEstoqueService
 
-    def initialize(produto, produto, data)
-        @produto = produto
+    def initialize(produto, data)
         @produto = produto
         @data = data   
     end
@@ -17,7 +16,7 @@ class SaldoEstoque
     private 
 
     def ja_produzido?
-        !Produto.where(produto: @produto, produto: @produto, data: @data).empty?
+        !Produto.where(produto: @produto, data: @data).empty?
     end
 
 end

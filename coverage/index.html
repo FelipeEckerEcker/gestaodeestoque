@@ -14,14 +14,14 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-11-19T13:20:16-03:00">2019-11-19T13:20:16-03:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-11-25T19:53:49-03:00">2019-11-25T19:53:49-03:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">7.82%</span></span>
+    (<span class="covered_percent"><span class="red">7.84%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
@@ -32,9 +32,9 @@
   <a name="AllFiles"></a>
   <div>
     <b>35</b> files in total.
-    <b>524</b> relevant lines. 
+    <b>523</b> relevant lines. 
     <span class="green"><b>41</b> lines covered</span> and
-    <span class="red"><b>483</b> lines missed </span>
+    <span class="red"><b>482</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -393,10 +393,10 @@
       <tr>
         <td class="strong"><a href="#ab746cf54d380217cc4de33fac111785f5c05615" class="src_link" title="app/services/saldo_estoque_service.rb">app/services/saldo_estoque_service.rb</a></td>
         <td class="red strong">0.0 %</td>
-        <td>23</td>
-        <td>17</td>
+        <td>22</td>
+        <td>16</td>
         <td>0</td>
-        <td>17</td>
+        <td>16</td>
         <td>0.0</td>
       </tr>
       
@@ -1019,9 +1019,9 @@
   <a name="Ungrouped"></a>
   <div>
     <b>1</b> files in total.
-    <b>17</b> relevant lines. 
+    <b>16</b> relevant lines. 
     <span class="green"><b>0</b> lines covered</span> and
-    <span class="red"><b>17</b> lines missed </span>
+    <span class="red"><b>16</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -1040,10 +1040,10 @@
       <tr>
         <td class="strong"><a href="#ab746cf54d380217cc4de33fac111785f5c05615" class="src_link" title="app/services/saldo_estoque_service.rb">app/services/saldo_estoque_service.rb</a></td>
         <td class="red strong">0.0 %</td>
-        <td>23</td>
-        <td>17</td>
+        <td>22</td>
+        <td>16</td>
         <td>0</td>
-        <td>17</td>
+        <td>16</td>
         <td>0.0</td>
       </tr>
       
@@ -6231,9 +6231,9 @@
     <h3>app/services/saldo_estoque_service.rb</h3>
     <h4><span class="red">0.0 %</span> covered</h4>
     <div>
-      <b>17</b> relevant lines. 
+      <b>16</b> relevant lines. 
       <span class="green"><b>0</b> lines covered</span> and
-      <span class="red"><b>17</b> lines missed.</span>
+      <span class="red"><b>16</b> lines missed.</span>
     </div>
   </div>
   
@@ -6243,7 +6243,7 @@
         <li class="missed" data-hits="0" data-linenumber="1">
           
           
-          <code class="ruby">class SaldoEstoque</code>
+          <code class="ruby">class SaldoEstoqueService</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="2">
@@ -6255,7 +6255,7 @@
         <li class="missed" data-hits="0" data-linenumber="3">
           
           
-          <code class="ruby">    def initialize(produto, produto, data)</code>
+          <code class="ruby">    def initialize(produto, data)</code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="4">
@@ -6267,112 +6267,106 @@
         <li class="missed" data-hits="0" data-linenumber="5">
           
           
-          <code class="ruby">        @produto = produto</code>
+          <code class="ruby">        @data = data   </code>
         </li>
       
         <li class="missed" data-hits="0" data-linenumber="6">
           
           
-          <code class="ruby">        @data = data   </code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="7">
-          
-          
           <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="8">
+        <li class="never" data-hits="" data-linenumber="7">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="9">
+        <li class="missed" data-hits="0" data-linenumber="8">
           
           
           <code class="ruby">    def produto</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="10">
+        <li class="missed" data-hits="0" data-linenumber="9">
           
           
           <code class="ruby">        raise StandardError, &#39;Produto já produzido nesta data&#39; if ja_produzido? </code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="11">
+        <li class="never" data-hits="" data-linenumber="10">
           
           
           <code class="ruby">        </code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="12">
+        <li class="missed" data-hits="0" data-linenumber="11">
           
           
           <code class="ruby">        produto = Produto.new(produto: @produto, produto: @produto, data: @data)</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="13">
+        <li class="missed" data-hits="0" data-linenumber="12">
           
           
           <code class="ruby">        produto.save</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="14">
+        <li class="missed" data-hits="0" data-linenumber="13">
           
           
           <code class="ruby">        produto</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="15">
+        <li class="missed" data-hits="0" data-linenumber="14">
           
           
           <code class="ruby">     end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="16">
+        <li class="never" data-hits="" data-linenumber="15">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="17">
+        <li class="missed" data-hits="0" data-linenumber="16">
           
           
           <code class="ruby">    private </code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="18">
+        <li class="never" data-hits="" data-linenumber="17">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="19">
+        <li class="missed" data-hits="0" data-linenumber="18">
           
           
           <code class="ruby">    def ja_produzido?</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="20">
+        <li class="missed" data-hits="0" data-linenumber="19">
           
           
-          <code class="ruby">        !Produto.where(produto: @produto, produto: @produto, data: @data).empty?</code>
+          <code class="ruby">        !Produto.where(produto: @produto, data: @data).empty?</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="21">
+        <li class="missed" data-hits="0" data-linenumber="20">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="22">
+        <li class="never" data-hits="" data-linenumber="21">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="23">
+        <li class="missed" data-hits="0" data-linenumber="22">
           
           
           <code class="ruby">end</code>
