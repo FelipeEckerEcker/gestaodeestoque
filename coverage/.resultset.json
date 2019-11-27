@@ -81,6 +81,10 @@
         1,
         1,
         null,
+        null,
+        1,
+        0,
+        null,
         null
       ],
       "/home/felipeecker/gestaodeestoque/app/models/operacao.rb": [
@@ -112,6 +116,24 @@
         1,
         null
       ],
+      "/home/felipeecker/gestaodeestoque/app/services/saldo_estoque_service.rb": [
+        1,
+        null,
+        1,
+        3,
+        null,
+        null,
+        1,
+        3,
+        3,
+        null,
+        null,
+        1,
+        3,
+        null,
+        null,
+        null
+      ],
       "/home/felipeecker/gestaodeestoque/app/channels/application_cable/channel.rb": [
         0,
         0,
@@ -122,30 +144,6 @@
         0,
         0,
         0,
-        0
-      ],
-      "/home/felipeecker/gestaodeestoque/app/services/saldo_estoque_service.rb": [
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
         0
       ],
       "/home/felipeecker/gestaodeestoque/app/mailers/application_mailer.rb": [
@@ -847,6 +845,6 @@
         0
       ]
     },
-    "timestamp": 1574722429
+    "timestamp": 1574822272
   }
 }
